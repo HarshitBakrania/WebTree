@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="flex justify-center">
       {data.map((user) => {
         return (
           <Card
@@ -37,7 +37,7 @@ function App() {
           />
         );
       })}
-    </>
+    </div>
   );
 }
 export default App;
